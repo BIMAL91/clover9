@@ -20,7 +20,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             <div className="header-logo">
                                 <Link href="/" legacyBehavior>
                                     <a className="d-flex logo-container">
-                                        {headerStyle ? <ImageBitmap alt="myclover" src="/assets/imgs/template/logo.png" /> : <img alt="Agon" src="/assets/imgs/template/logo.png" />}
+                                        {headerStyle ? <Image alt="myclover" src="/assets/imgs/template/logo.png" /> : <img alt="Agon" src="/assets/imgs/template/logo.png" />}
                                     </a>
                                 </Link>
                             </div>
