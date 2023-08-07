@@ -29,7 +29,7 @@ const data = [
   {
     id: 4,
     title: 'Daily Personal Activities',
-    description: 'Occupational Therapist',
+    description: 'Therapist',
     location: 'Unit 1, 385 Mcclelland Drive, Langwarrin, VIC 3910',
     imageUrl: '/assets/imgs/page/services/1/PersonalActivities.jpg',
     link: '/page-service-1/'
@@ -129,17 +129,21 @@ const SearchFilter = () => {
     maxWidth: '1200px', // Set a maximum width for the container
     margin: '0 auto', // Center the container
   };
+  
+  const cardContainerStylesCentered = {
+    ...cardContainerStyles,
+    justifyContent: 'center', // Center the cards on small screens
+  };
 
   const cardStyles = {
-    flexBasis: 'calc(25% - 20px)', // Adjust the width for four cards in a row
-    maxWidth: '300px',
+    flexBasis: '100%', // Cards will take up full width on small devices
+    maxWidth: '300px', // Keep the maximum width for larger screens
     border: '1px solid #ccc',
     padding: '16px',
     marginBottom: '20px',
     borderRadius: '4px',
     boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
   };
-
   const largeScreenCardStyles = {
     flexBasis: windowWidth >= 768 ? 'calc(25% - 20px)' : 'calc(100% - 20px)',
     maxWidth: windowWidth >= 768 ? '300px' : '100%',
@@ -189,13 +193,13 @@ const SearchFilter = () => {
           <button onClick={handleSearch} style={buttonStyles}>Search</button>
         </div>
       </div>
-      <div className="card-container" style={cardContainerStyles}>
-        {filteredData.map(item => (
-          <div
-            className="card"
-            key={item.id}
-            style={{ ...cardStyles, ...(windowWidth >= 768 ? largeScreenCardStyles : {}) }}
-          >
+      <div className="card-container" style={windowWidth >= 768 ? cardContainerStyles : cardContainerStylesCentered}>
+    {filteredData.map(item => (
+      <div
+        className="card"
+        key={item.id}
+        style={{ ...cardStyles, ...(windowWidth >= 768 ? largeScreenCardStyles : {}) }}
+      >
              <h3 style={titleStyles}>{item.description}</h3>
             <img src={item.imageUrl} alt={item.title} style={imageStyles} />
            
