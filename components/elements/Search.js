@@ -7,7 +7,7 @@ const data = [
     title: 'Plan Management',
     description: 'Bookkeeper ',
     location: 'Elford Street, Clifton Beach, QLD 4879',
-    imageUrl: '/assets/uploads/p.png',
+    imageUrl: '/assets/imgs/page/services/1/p.png',
     link: '/page-service-1/'
   },
   {
@@ -15,7 +15,7 @@ const data = [
     title: 'Plan Management',
     description: 'Accountant',
     location: 'Kingston Heights, Kingston Beach, TAS 7050',
-    imageUrl: '/assets/uploads/planmanagement2.png',
+    imageUrl: '/assets/imgs/page/services/1/planmanagement2.png',
     link: '/page-service-1/'
   },
   {
@@ -23,7 +23,7 @@ const data = [
     title: 'Household tasks',
     description: 'Gardener',
     location: 'New England Highway, Toowoomba City, QLD 4350',
-    imageUrl: '/assets/uploads/gardening.jpg',
+    imageUrl: '/assets/imgs/page/services/1/gardening.jpg',
     link: '/page-service-1/'
   },
   {
@@ -31,7 +31,7 @@ const data = [
     title: 'Daily Personal Activities',
     description: 'Occupational Therapist',
     location: 'Unit 1, 385 Mcclelland Drive, Langwarrin, VIC 3910',
-    imageUrl: '/assets/uploads/PersonalActivities.jpg',
+    imageUrl: '/assets/imgs/page/services/1/PersonalActivities.jpg',
     link: '/page-service-1/'
   },
  
