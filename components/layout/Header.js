@@ -157,6 +157,10 @@ const Header = ({ handleOpen, headerStyle }) => {
                                 </div> */}
                             </div>
                         </div>
+                        {/* <div className="">
+                        <span className="color-gray-900 text-heading-10 mr-10 ">Ready to get started?</span>
+                        </div> */}
+                        
                         <div className="header-right">
                             <div className="block-signin">
                                 <Link href="/page-signup" legacyBehavior><a className="btn btn-default hover-up icon-arrow-right-white btn-top">Request Service</a></Link>

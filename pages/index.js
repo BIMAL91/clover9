@@ -248,7 +248,7 @@ function Home() {
 .
                                     </p>
                                     <div className="mt-30">
-                                        <Link href="/page-service-1" legacyBehavior><a className="btn btn-default btn-white icon-arrow-right">Learn more</a></Link>
+                                        <Link href="" legacyBehavior><a className="btn btn-default btn-white icon-arrow-right">Learn more</a></Link>
                                     </div>
                                 </div>
                             </div>

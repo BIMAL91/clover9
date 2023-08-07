@@ -25,7 +25,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="row">
+                    {/* <div className="row">
                         <div className="col-lg-3 width-20 mb-30">
                             <h4 className="text-heading-5">Contact</h4>
                             <div className="mt-20 text-body-text color-gray-600 mb-20">4517 Washington Ave. Manchester,
@@ -52,16 +52,16 @@ const Footer = () => {
                                         <a>Careers</a>
                                     </Link>
                                 </li>
-                                {/* <li>
+                                <li>
                                     <Link href="/#" legacyBehavior>
                                         <a>Press and Media</a>
                                     </Link>
-                                </li> */}
-                                {/* <li>
+                                </li>
+                                <li>
                                     <Link href="/#" legacyBehavior>
                                         <a>Advertising</a>
                                     </Link>
-                                </li> */}
+                                </li>
                                 <li>
                                     <Link href="/#" legacyBehavior>
                                         <a>Testimonials</a>
@@ -169,7 +169,7 @@ const Footer = () => {
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="footer-bottom mt-20">
                         <div className="row">
                             <div className="col-md-5 offset-lg-4">

@@ -77,23 +77,20 @@ font-family: 'Open Sans', sans-serif;
 .btn-select {
   border: 2px solid #8AC53F;
 }
-.btn-full{
+.btn-full {
   border-radius: 45px;
- background: rgba(16, 24, 40, 1);
-
+  background: rgba(16, 24, 40, 1);
   color: #ffffff;
   font-size: 24px;
   line-height: 14px;
   font-weight: bold;
-  padding: 18px 125px;
+  padding: 18px 10%; /* Use percentage-based padding */
   border: 2px solid transparent;
 }
+
+
 /* Custom CSS to make the div take 50% width on large screens (col-lg-6) */
-@media (min-width: 992px) {
-  .custom-col-md-6 {
-      width: 100%;
-  }
-}
+
 
 
 
@@ -763,6 +760,9 @@ a {
   font-size: 56px;
   line-height: 66px;
   letter-spacing: 0%;
+}
+.text-heading-10{
+  font-size: 14px;
 }
 
 .text-heading-1 {

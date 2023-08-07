@@ -138,15 +138,47 @@ function Service1() {
                                 {/* <div className="line-bd-green mt-50" /> */}
 
                             </div>
+
                             <div className="col-lg-5 col-sm-11 block-we-do offset-lg-1 mt-30">
-                                <div className="inner-image"><img className="bdrd-16 img-responsive" src="assets/imgs/page/homepage2/img-built.png" alt="Agon" />
-                                    <div className="custom-col-md-6 col-sm-6 mt-40">
+                                <div className="inner-image">
+                                    <img className="bdrd-16 img-responsive" src="assets/imgs/page/homepage2/img-built.png" alt="Agon" />
+                                    <div className="col-sm-6 mt-40">
                                         <Link href="#" legacyBehavior>
-                                            <a className="btn-full">Make Enquiry</a>
+                                            <a className="btn-full" style={{ width: "100%", display: "block" }}>Make Enquiry</a>
                                         </Link>
                                     </div>
+                                </div>
+                            </div>
 
 
+
+
+                        </div>
+                    </div>
+                </section>
+
+
+                <section className="section-box mt-120">
+                    <div className="container">
+                        <div className="row align-items-center">
+                            <div className="col-lg-5 offset-lg-2">
+                                {/* Location Map Image */}
+                                <img src="assets/imgs/page/blog/single/location.png" alt="Location Map" className="img-fluid" />
+                            </div>
+                            <div className="col-lg-5">
+                                <div className="text-center">
+                                    <div className="d-flex align-items-center mb-3">
+                                        <i className="fas fa-map-marker-alt mr-2"></i>
+                                        <p>Location Address</p>
+                                    </div>
+                                    <div className="d-flex align-items-center mb-3">
+                                        <i className="fas fa-phone mr-2"></i>
+                                        <p>Phone Number</p>
+                                    </div>
+                                    <div className="d-flex align-items-center mb-3">
+                                        <i className="fas fa-envelope mr-2"></i>
+                                        <p>Email Address</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -155,17 +187,18 @@ function Service1() {
 
 
 
-                <section className="section-box mt-70">
+
+                {/* <section className="section-box mt-70">
                     <div className="container mt-50">
                         <h3 className="text-heading-1 text-center mb-10">Choose The Best Plan<br className="d-lg-block d-none" />That’s For You</h3>
                     </div>
                     <PriceTable />
-                </section>
+                </section> */}
                 <section className="section-box overflow-visible mb-100">
                     <div className="container mt-100">
                         <div className="row">
                             <div className="col-lg-10 mx-auto">
-                                <div className="bg-6 box-newsletter position-relative">
+                                <div className="bg-11  box-newsletter position-relative">
                                     <div className="row">
                                         <div className="col-lg-5 col-md-7"><span className="text-body-capitalized color-gray-500 text-uppercase">newsletter</span>
                                             <h4 className="text-heading-2 mb-10 mt-10">Subscribe our newsletter</h4>
@@ -176,9 +209,9 @@ function Service1() {
                                                 <form className="form-newsletter"><input className="input-newsletter" placeholder="Enter you mail .." /><button className="btn btn-send" /></form>
                                             </div>
                                         </div>
-                                        <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
+                                        {/* <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
                                             <div className="block-chart shape-1"><img src="/assets/imgs/template/chart.png" alt="Agon" /></div><img className="img-responsive img-newsletter" src="assets/imgs/template/img-newsletter.png" alt="Agon" />
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
