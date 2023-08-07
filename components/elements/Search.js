@@ -1,94 +1,212 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 
+const data = [
+  {
+    id: 1,
+    title: 'Plan Management',
+    description: 'Bookkeeper ',
+    location: 'Elford Street, Clifton Beach, QLD 4879',
+    imageUrl: '/assets/uploads/p.png',
+    link: '/page-service-1/'
+  },
+  {
+    id: 2,
+    title: 'Plan Management',
+    description: 'Accountant',
+    location: 'Kingston Heights, Kingston Beach, TAS 7050',
+    imageUrl: '/assets/uploads/planmanagement2.png',
+    link: '/page-service-1/'
+  },
+  {
+    id: 3,
+    title: 'Household tasks',
+    description: 'Gardener',
+    location: 'New England Highway, Toowoomba City, QLD 4350',
+    imageUrl: '/assets/uploads/gardening.jpg',
+    link: '/page-service-1/'
+  },
+  {
+    id: 4,
+    title: 'Daily Personal Activities',
+    description: 'Occupational Therapist',
+    location: 'Unit 1, 385 Mcclelland Drive, Langwarrin, VIC 3910',
+    imageUrl: '/assets/uploads/PersonalActivities.jpg',
+    link: '/page-service-1/'
+  },
+ 
+  // Add more data objects as needed
+];
 
-const Search = () => {
-  const [isToggled, setToggled] = useState(false);
-  const [selectedService, setSelectedService] = useState('');
-  const [selectedLocation, setSelectedLocation] = useState('');
-  const [searchResults, setSearchResults] = useState([]);
+const SearchFilter = () => {
+  const [service, setService] = useState('');
+  const [location, setLocation] = useState('');
+  const [filteredData, setFilteredData] = useState(data);
+  const [windowWidth, setWindowWidth] = useState(0);
 
-  const toggleTrueFalse = () => {
-    setToggled(!isToggled);
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+    setWindowWidth(window.innerWidth);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  const handleServiceChange = (event) => {
+    setService(event.target.value);
+    filterData(event.target.value, location);
   };
 
-  const handleServiceChange = (e) => {
-    setSelectedService(e.target.value);
+  const handleLocationChange = (event) => {
+    setLocation(event.target.value);
+    filterData(service, event.target.value);
   };
 
-  const handleLocationChange = (e) => {
-    setSelectedLocation(e.target.value);
-  };
-
-  const handleSearch = async () => {
-    try {
-      const response = await fetch('/api/Display', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          service: selectedService,
-          location: selectedLocation,
-        }),
-      });
-
-      if (response.ok) {
-        const data = await response.json();
-        setSearchResults(data.results);
-      } else {
-        console.error('Search request failed');
+  const filterData = (selectedService, selectedLocation) => {
+    const filtered = data.filter(item => {
+      if (selectedService && item.title !== selectedService) {
+        return false;
       }
-    } catch (error) {
-      console.error('Search request failed', error);
+      if (selectedLocation && item.location !== selectedLocation) {
+        return false;
+      }
+      return true;
+    });
+
+    setFilteredData(filtered);
+  };
+
+  const handleSearch = () => {
+    const filtered = data.filter(item => {
+      if (service && item.title !== service) {
+        return false;
+      }
+      if (location && item.location !== location) {
+        return false;
+      }
+      return true;
+    });
+
+    if (service || location) {
+      setFilteredData(filtered);
+    } else {
+      // If both service and location are not selected, show all data
+      setFilteredData(data);
     }
   };
 
+  const formStyles = {
+    display: 'flex',
+    justifyContent: 'center',
+    marginBottom: '20px',
+  };
+
+  const selectStyles = {
+    margin: '10px',
+    padding: '15px 50px',
+    borderRadius: '50px',
+    width: '300px',
+  };
+
+  const buttonStyles = {
+    margin: '10px',
+    padding: '15px 50px',
+    borderRadius: '50px',
+    border: 'none',
+    backgroundColor: 'black',
+    color: 'white',
+  };
+
+  const cardContainerStyles = {
+    display: 'flex',
+    flexWrap: 'wrap',
+    justifyContent: 'flex-start', // Align cards in a row from the start
+    maxWidth: '1200px', // Set a maximum width for the container
+    margin: '0 auto', // Center the container
+  };
+
+  const cardStyles = {
+    flexBasis: 'calc(25% - 20px)', // Adjust the width for four cards in a row
+    maxWidth: '300px',
+    border: '1px solid #ccc',
+    padding: '16px',
+    marginBottom: '20px',
+    borderRadius: '4px',
+    boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
+  };
+
+  const largeScreenCardStyles = {
+    flexBasis: windowWidth >= 768 ? 'calc(25% - 20px)' : 'calc(100% - 20px)',
+    maxWidth: windowWidth >= 768 ? '300px' : '100%',
+  };
+
+  const imageStyles = {
+    width: '100%',
+    height: '200px',
+  };
+
+  const titleStyles = {
+    fontSize: '20px',
+    fontWeight: 'bold',
+  };
+
+  const linkStyles = {
+    display: 'block',
+    marginTop: '10px',
+    color: '#101828',
+    backgroundColor: '#ffffff',
+    padding: '10px',
+    textDecoration: 'none',
+    borderRadius: '8px',
+    width: '100%',
+    border: '2px solid black',
+  };
+
   return (
-    <>
-      <div className="container mt-70">
-        <div className="text-center mt-10">
-          <div className="image-search-form">
-            <select value={selectedService} onChange={handleServiceChange}>
-              <option value="">Service</option>
-              <option value="Car Modifications">Car Modifications</option>
-              <option value="Customer service">Customer service</option>
-              <option value="eee">eee</option>
-              {/* Add your service options */}
-            </select>
-            <select value={selectedLocation} onChange={handleLocationChange}>
-              <option value="">Location</option>
-              <option value="kannur">kannur</option>
-              <option value="idukki">idukki</option>
-              <option value="eee">eee</option>
-              {/* Add your location options */}
-            </select>
-            <button onClick={handleSearch}>Search</button>
-          </div>
+    <div>
+      <div className="text-center mt-50" style={formStyles}>
+        <div className="imagesearchform">
+          <select  value={service} onChange={handleServiceChange} style={selectStyles}>
+            <option value="">Service</option>
+            <option value="Plan Management">Plan Management</option>
+            <option value="Household tasks">Household tasks</option>
+            <option value="Daily Personal Activities">Daily Personal Activities</option>
+            {/* Add your service options */}
+          </select>
+          <select value={location} onChange={handleLocationChange} style={selectStyles}>
+            <option value="">Location</option>
+            <option value="Elford Street, Clifton Beach, QLD 4879">Elford Street, Clifton Beach, QLD 4879</option>
+            <option value="Kingston Heights, Kingston Beach, TAS 7050">Kingston Heights, Kingston Beach, TAS 7050</option>
+            <option value="New England Highway, Toowoomba City, QLD 4350">New England Highway, Toowoomba City, QLD 4350</option>
+            <option value="Unit 1, 385 Mcclelland Drive, Langwarrin, VIC 3910">Unit 1, 385 Mcclelland Drive, Langwarrin, VIC 3910</option>
+            {/* Add your location options */}
+          </select>
+          <button onClick={handleSearch} style={buttonStyles}>Search</button>
         </div>
-        <div className="card-row">
-          {/* Display search results as Bootstrap cards */}
-          {searchResults.map((result) => (
-            <div key={result.id} className="card">
-
-              <div className="card-body">
-                <h5 className="card-title">{result.title}</h5>
-                <img src={`/assets/uploads/${result.image}`} alt={result.title} className="card-img" />
-
-                <Link href={`/details/${result.id}`}>
-                  <button className="get-started-link icon-arrow-right ">Get Started</button>
-                </Link>
-              </div>
-            </div>
-          ))}
-        </div>
-
-
-
-
       </div>
-    </>
+      <div className="card-container" style={cardContainerStyles}>
+        {filteredData.map(item => (
+          <div
+            className="card"
+            key={item.id}
+            style={{ ...cardStyles, ...(windowWidth >= 768 ? largeScreenCardStyles : {}) }}
+          >
+             <h3 style={titleStyles}>{item.description}</h3>
+            <img src={item.imageUrl} alt={item.title} style={imageStyles} />
+           
+            <Link href={item.link}>
+              <div style={linkStyles} className='icon-arrow-right'>Get Started</div>
+            </Link>
+          </div>
+        ))}
+      </div>
+    </div>
   );
 };
 
-export default Search;
+export default SearchFilter;
