@@ -122,40 +122,37 @@ function Service1() {
                         </div>
                     </div>
                 </section>
-
-
                 <section className="section-box">
-                    <div className="container mt-120">
-                        <div className="row">
-                            <div className="col-lg-4 col-sm-10 mb-30 offset-lg-2"><span className="tag-1 bg-6 color-green-900">Built Exclusively For You</span>
-                                <h3 className="text-heading-9 mt-30">
-                                    About Holistic Care Provider
-                                </h3>
-                                <p className="text-body-lead-large-1 color-gray-600 mt-30">
-                                    Holistic Care Provider is a registered NDIS business specializing  in comprehensive care solutions. Our unique brokerage service  enables both registered and unregistered providers to deliver  exceptional services to participants. We prioritize the privacy  and confidentiality of all participants, implementing necessary  measures to safeguard their personal information throughout
-                                    our services.
-                                </p>
-                                {/* <div className="line-bd-green mt-50" /> */}
-
-                            </div>
-
-                            <div className="col-lg-5 col-sm-11 block-we-do offset-lg-1 mt-30">
-                                <div className="inner-image">
-                                    <img className="bdrd-16 img-responsive" src="assets/imgs/page/homepage2/img-built.png" alt="Agon" />
-                                    <div className="col-sm-6 mt-40">
-                                        <Link href="#" legacyBehavior>
-                                            <a className="btn-full" style={{ width: "100%", display: "block" }}>Make Enquiry</a>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-
-                        </div>
+    <div className="container mt-4">
+        <div className="row">
+            <div className="col-lg-4 col-sm-11 mt-4 offset-lg-2">
+                <span className="tag-1 bg-6 color-green-900">Built Exclusively For You</span>
+                <h3 className="text-heading-9 mt-3">
+                    About Holistic Care Provider
+                </h3>
+                <p className="text-body-lead-large-1 color-gray-600 mt-3">
+                    Holistic Care Provider is a registered NDIS business specializing in comprehensive care solutions. Our unique brokerage service enables both registered and unregistered providers to deliver exceptional services to participants. We prioritize the privacy and confidentiality of all participants, implementing necessary measures to safeguard their personal information throughout our services.
+                </p>
+            </div>
+            <div className="col-lg-5 col-sm-11 mt-4 offset-lg-1">
+                <div className="inner-image" style={{ display: "flex", flexDirection: "column" }}>
+                    <div style={{ flex: "1" }}>
+                    <img className="bdrd-16 img-responsive" src="assets/imgs/page/homepage2/img-built.png" alt="Agon" />
                     </div>
-                </section>
+                    <div style={{ width: "100%", marginTop: "1rem" }}>
+                        <Link href="#" legacyBehavior>
+                            <a className="btn-full" style={{ width: "100%", maxWidth: "420px", display: "block", padding: "1.5rem 1rem", fontSize: "0.9rem" }}>Make Enquiry</a>
+                        </Link>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
 
 
                 <section className="section-box mt-120">

@@ -35,7 +35,7 @@ const data = [
     link: '/page-service-1/'
   },
  
-  // Add more data objects as needed
+  
 ];
 
 const SearchFilter = () => {
@@ -95,7 +95,7 @@ const SearchFilter = () => {
     if (service || location) {
       setFilteredData(filtered);
     } else {
-      // If both service and location are not selected, show all data
+   
       setFilteredData(data);
     }
   };
@@ -125,19 +125,19 @@ const SearchFilter = () => {
   const cardContainerStyles = {
     display: 'flex',
     flexWrap: 'wrap',
-    justifyContent: 'flex-start', // Align cards in a row from the start
-    maxWidth: '1200px', // Set a maximum width for the container
-    margin: '0 auto', // Center the container
+    justifyContent: 'flex-start', 
+    maxWidth: '1200px',
+    margin: '0 auto', 
   };
   
   const cardContainerStylesCentered = {
     ...cardContainerStyles,
-    justifyContent: 'center', // Center the cards on small screens
+    justifyContent: 'center', 
   };
 
   const cardStyles = {
-    flexBasis: '100%', // Cards will take up full width on small devices
-    maxWidth: '300px', // Keep the maximum width for larger screens
+    flexBasis: '100%', 
+    maxWidth: '300px', 
     border: '1px solid #ccc',
     padding: '16px',
     marginBottom: '20px',
