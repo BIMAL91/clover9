@@ -150,14 +150,9 @@ const Header = ({ handleOpen, headerStyle }) => {
                                                 <li><Link href="/shop/1" legacyBehavior><a className="closer"><i className="fi fi-rr-edit"></i>Product Details</a></Link></li>
                                             </ul> */}
                                         </li>
-                                        {/* <li className="color-gray-900 text-heading-6 ml-100 text-mb-sm-20">
+                                        <li className="color-gray-900 text-heading-6 ml-100 text-mb-sm-20">
                                             <a href="#">Ready to get started?</a>
-                                            <ul className="sub-menu">
-                                                <li><Link href="/page-shop-grid-1" legacyBehavior><a className="closer"><i className="fi fi-rr-edit"></i>Shop Grid - 1</a></Link></li>
-                                                <li><Link href="/page-shop-grid-2" legacyBehavior><a className="closer"><i className="fi fi-rr-edit"></i>Shop Grid - 2</a></Link></li>
-                                                <li><Link href="/shop/1" legacyBehavior><a className="closer"><i className="fi fi-rr-edit"></i>Product Details</a></Link></li>
-                                            </ul>
-                                        </li> */}
+                                        </li>
                                     </ul>
                                 </nav>
                                 {/* <div className="burger-icon burger-icon-white" onClick={handleOpen}>

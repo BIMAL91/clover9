@@ -131,7 +131,8 @@ function Service1() {
                                     About Holistic Care Provider
                                 </h3>
                                 <p className="text-body-lead-large-1 color-gray-600 mt-3">
-                                    Holistic Care Provider is a registered NDIS business specializing in comprehensive care solutions. Our unique brokerage service enables both registered and unregistered providers to deliver exceptional services to participants. We prioritize the privacy and confidentiality of all participants, implementing necessary measures to safeguard their personal information throughout our services.
+                                We understand that time is one thing you just don’t have enough of, especially when children or other caring responsibilities are involved. Here at Alliance, we will submit your claims to the NDIS, pay invoices on your behalf, and assist you to monitor your funding. Our staff are trained in the Early Childhood Early Intervention (ECEI) process so that we can best support you and your family through the scheme from a very young age.
+
                                 </p>
                             </div>
                             <div className="col-lg-5 col-sm-11 mt-4 offset-lg-1">

@@ -8,7 +8,7 @@ const data = [
     description: 'Bookkeeper ',
     location: 'Elford Street, Clifton Beach, QLD 4879',
     imageUrl: '/assets/imgs/page/services/1/p.png',
-    link: '/page-service-1/'
+    link: '/page-service-4/'
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const data = [
     description: 'Accountant',
     location: 'Kingston Heights, Kingston Beach, TAS 7050',
     imageUrl: '/assets/imgs/page/services/1/planmanagement2.png',
-    link: '/page-service-1/'
+    link: '/page-service-5/'
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const data = [
     description: 'Gardener',
     location: 'New England Highway, Toowoomba City, QLD 4350',
     imageUrl: '/assets/imgs/page/services/1/gardening.jpg',
-    link: '/page-service-1/'
+    link: '/page-service-6/'
   },
   {
     id: 4,

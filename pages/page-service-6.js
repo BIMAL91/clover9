@@ -131,7 +131,9 @@ function Service1() {
                                     About Holistic Care Provider
                                 </h3>
                                 <p className="text-body-lead-large-1 color-gray-600 mt-3">
-                                    Holistic Care Provider is a registered NDIS business specializing in comprehensive care solutions. Our unique brokerage service enables both registered and unregistered providers to deliver exceptional services to participants. We prioritize the privacy and confidentiality of all participants, implementing necessary measures to safeguard their personal information throughout our services.
+                                "It all started with what my brothers and I thought was a simple thing – keeping our parents’ yard tidy. This took us on a journey of dealing with providers who wouldn’t turn up on time (or at all), constantly changing quotes, trying to call people who were always on the job and always dealing with inconsistent prices.
+We decided it just wasn’t good enough and that’s why we started Lawn.com.au."
+
                                 </p>
                             </div>
                             <div className="col-lg-5 col-sm-11 mt-4 offset-lg-1">

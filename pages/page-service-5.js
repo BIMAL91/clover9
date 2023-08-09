@@ -131,7 +131,8 @@ function Service1() {
                                     About Holistic Care Provider
                                 </h3>
                                 <p className="text-body-lead-large-1 color-gray-600 mt-3">
-                                    Holistic Care Provider is a registered NDIS business specializing in comprehensive care solutions. Our unique brokerage service enables both registered and unregistered providers to deliver exceptional services to participants. We prioritize the privacy and confidentiality of all participants, implementing necessary measures to safeguard their personal information throughout our services.
+                                We at Program Plan Management (PPM) have a diverse range of experience, talents and interests. Ranging from graduate accounting from the University of Tasmania and a graduate diploma in legal pracice from the Australian National University, to a degree in information technology from the University of New South Wales. Our work experience covers both government and private industry with various accounting related roles.
+
                                 </p>
                             </div>
                             <div className="col-lg-5 col-sm-11 mt-4 offset-lg-1">

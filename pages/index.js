@@ -56,36 +56,36 @@ function Home() {
 
                 {/* how to works start here             */}
                 <section className="section-box">
-    <div className="container">
-        <div className="row">
-            <div className="col-lg-2 col-md-1 col-12"></div>
-            <div className="col-lg-8 col-md-10 col-12 text-center mt-4">
-                <h2 className="text-heading-1 color-gray-900">
-                    Enhancing Lives <br className="d-lg-block d-none" />
-                </h2>
-            </div>
-        </div>
-    </div>
-    <div className="container mt-4">
-        <div className="row">
-            <div className="col-12">
-                <p className="text-body-Paragraph color-gray-600 mt-3">
-                    Our Mission is to empower individuals to focus on their strengths with trust, integrity and compassion. Simplifying access to care,
-                    services and employment by leveraging cutting edge technology is our offering.
-                </p>
-            </div>
-        </div>
-    </div>
-    <div className="container mt-4">
-        <div className="row">
-            <div className="col-12 text-center">
-                <Link href="#" legacyBehavior>
-                    <a className="btn btn-default btn-white icon-arrow-right">Learn more</a>
-                </Link>
-            </div>
-        </div>
-    </div>
-</section>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-2 col-md-1 col-12"></div>
+                            <div className="col-lg-8 col-md-10 col-12 text-center mt-4">
+                                <h2 className="text-heading-1 color-gray-900">
+                                    Enhancing Lives <br className="d-lg-block d-none" />
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="container mt-4">
+                        <div className="row">
+                            <div className="col-12">
+                                <p className="text-body-Paragraph color-gray-600 mt-3">
+                                    Our Mission is to empower individuals to focus on their strengths with trust, integrity and compassion. Simplifying access to care,
+                                    services and employment by leveraging cutting edge technology is our offering.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="container mt-4">
+                        <div className="row">
+                            <div className="col-12 text-center">
+                                <Link href="#" legacyBehavior>
+                                    <a className="btn btn-default btn-white icon-arrow-right">Learn more</a>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
 
                 {/* how it works end here */}
@@ -94,58 +94,58 @@ function Home() {
                 {/* {who we are  starts here*/}
 
                 <section className="section-box">
-    <div className="container mt-4">
-        <div className="row align-items-center">
-            <div className="col-lg-6 col-sm-12 mb-4">
-                <img className="bdrd-16 img-responsive imgss" src="assets/imgs/page/homepage1/img2.jpg" alt="Agon" />
-            </div>
-            <div className="col-lg-6 col-sm-12">
-                <span className="tag-1">Who We Are</span>
-                <h3 className="text-heading-2 mt-4">
-                    A Central Hub For Managing Every Individual’s & Registered Agency’s Interactions
-                </h3>
-                <p className="text-body-Paragraph color-gray-600 mt-4">
-                    The feature-rich exchange platform provides tools to access agencies, track progress, communicate updates, process claims, and address any concerns or feedback.
-                </p>
-                <div className="line-bd-green mt-4"></div>
-                <div className="row mt-4">
-                    <div className="col-lg-6 col-sm-6 col-12 mt-4">
-                        <h4 className="text-heading-6 icon-leaf">
-                            Extensive Agency Network
-                        </h4>
-                        <p className="text-body-excerpt color-gray-600 mt-2">
-                            We have partnered with a wide range of reliable and experienced agencies.
-                        </p>
+                    <div className="container mt-4">
+                        <div className="row align-items-center">
+                            <div className="col-lg-6 col-sm-12 mb-4">
+                                <img className="bdrd-16 img-responsive imgss" src="assets/imgs/page/homepage1/img2.jpg" alt="Agon" />
+                            </div>
+                            <div className="col-lg-6 col-sm-12 mt-4">
+                                <span className="tag-1 mt-4">Who We Are</span>
+                                <h3 className="text-heading-2 mt-4">
+                                    A Central Hub For Managing Every Individual’s & Registered Agency’s Interactions
+                                </h3>
+                                <p className="text-body-Paragraph color-gray-600 mt-4">
+                                    The feature-rich exchange platform provides tools to access agencies, track progress, communicate updates, process claims, and address any concerns or feedback.
+                                </p>
+                                <div className="line-bd-green mt-4"></div>
+                                <div className="row mt-4">
+                                    <div className="col-lg-6 col-sm-6 col-12 mt-4">
+                                        <h4 className="text-heading-6 icon-leaf">
+                                            Extensive Agency Network
+                                        </h4>
+                                        <p className="text-body-excerpt color-gray-600 mt-2">
+                                            We have partnered with a wide range of reliable and experienced agencies.
+                                        </p>
+                                    </div>
+                                    <div className="col-lg-6 col-sm-6 col-12 mt-4">
+                                        <h4 className="text-heading-6 icon-leaf">
+                                            Personalized Approach
+                                        </h4>
+                                        <p className="text-body-excerpt color-gray-600 mt-2">
+                                            We believe in the importance of individualized care and attention.
+                                        </p>
+                                    </div>
+                                    <div className="col-lg-6 col-sm-6 col-12 mt-4">
+                                        <h4 className="text-heading-6 icon-leaf">
+                                            Streamlined Process
+                                        </h4>
+                                        <p className="text-body-excerpt color-gray-600 mt-2">
+                                            Our platform simplifies the search for assistance by eliminating the need for extensive research and multiple inquiries.
+                                        </p>
+                                    </div>
+                                    <div className="col-lg-6 col-sm-6 col-12 mt-4">
+                                        <h4 className="text-heading-6 icon-leaf">
+                                            Trusted and Verified Agencies
+                                        </h4>
+                                        <p className="text-body-excerpt color-gray-600 mt-2">
+                                            We thoroughly vet all agencies in our network to ensure they meet our strict quality standards.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div className="col-lg-6 col-sm-6 col-12 mt-4">
-                        <h4 className="text-heading-6 icon-leaf">
-                            Personalized Approach
-                        </h4>
-                        <p className="text-body-excerpt color-gray-600 mt-2">
-                            We believe in the importance of individualized care and attention.
-                        </p>
-                    </div>
-                    <div className="col-lg-6 col-sm-6 col-12 mt-4">
-                        <h4 className="text-heading-6 icon-leaf">
-                            Streamlined Process
-                        </h4>
-                        <p className="text-body-excerpt color-gray-600 mt-2">
-                            Our platform simplifies the search for assistance by eliminating the need for extensive research and multiple inquiries.
-                        </p>
-                    </div>
-                    <div className="col-lg-6 col-sm-6 col-12 mt-4">
-                        <h4 className="text-heading-6 icon-leaf">
-                            Trusted and Verified Agencies
-                        </h4>
-                        <p className="text-body-excerpt color-gray-600 mt-2">
-                            We thoroughly vet all agencies in our network to ensure they meet our strict quality standards.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+                </section>
 
 
                 {/* who we are ends here */}
@@ -204,7 +204,7 @@ function Home() {
                                         As a first step we would welcome each individual to create an account
                                         online with minimum relevant personal details.
                                     </p>
-                                    <div className="mt-30">
+                                    <div className="mt-55">
                                         <Link href="#" legacyBehavior><a className="btn btn-default btn-white icon-arrow-right">Learn more</a></Link>
                                     </div>
                                 </div>
@@ -240,7 +240,7 @@ function Home() {
                                         identifies the most suitable agencies
                                         .
                                     </p>
-                                    <div className="mt-30">
+                                    <div className="mt-55">
                                         <Link href="" legacyBehavior><a className="btn btn-default btn-white icon-arrow-right">Learn more</a></Link>
                                     </div>
                                 </div>
@@ -654,7 +654,7 @@ function Home() {
                 <section className="section-box overflow-visible mb-100">
                     <div className="container mt-100">
                         <div className="row">
-                            <div className="col-lg-10 mx-auto">
+                            <div className="col-lg-8 mx-auto">
                                 <div className="bg-11 box-newsletter position-relative">
                                     <div className="row">
                                         <div className="col-lg-5 col-md-7">
@@ -677,7 +677,7 @@ function Home() {
                                             {/* <div className="block-chart shape-1">
                                                 <img src="/assets/imgs/template/chart.png" alt="Agon" />
                                             </div> */}
-                                            <img className="img-responsive img-newsletter" src="assets/imgs/template/img-newsletter.png" alt="Agon" />
+                                            {/* <img className="img-responsive img-newsletter" src="assets/imgs/template/img-newsletter.png" alt="Agon" /> */}
                                         </div>
                                     </div>
                                 </div>
