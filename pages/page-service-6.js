@@ -17,7 +17,15 @@ function Service1() {
                         <div className="container">
                             <div className="">
                                 {/* <span className="tag-1 bg-6 color-green-900">TECHNOLOGY NEWS</span> */}
-                                <h1 className="text-heading-1 color-white mt-30">Holistic Care Provider</h1>
+                                <h1 className="text-heading-1 color-white mt-30" style={{ display: 'flex', alignItems: 'center' }}>
+                                    Lawn.Com.Au{' '}
+                                    <img
+                                        src="assets/imgs/page/services/1/registraion.png"
+                                        className="registration"
+                                        style={{ marginLeft: '10px', marginTop: '5px', verticalAlign: 'middle' }}
+                                        alt="Registration"
+                                    />
+                                </h1>
                             </div>
                             <div className="col-md-8 col-sm-6 mt-40">
 
@@ -128,11 +136,11 @@ function Service1() {
                             <div className="col-lg-4 col-sm-11 mt-4 offset-lg-2">
                                 <span className="tag-1 bg-6 color-green-900">Built Exclusively For You</span>
                                 <h3 className="text-heading-9 mt-3">
-                                    About Holistic Care Provider
+                                    Lawn.Com.Au
                                 </h3>
                                 <p className="text-body-lead-large-1 color-gray-600 mt-3">
-                                "It all started with what my brothers and I thought was a simple thing – keeping our parents’ yard tidy. This took us on a journey of dealing with providers who wouldn’t turn up on time (or at all), constantly changing quotes, trying to call people who were always on the job and always dealing with inconsistent prices.
-We decided it just wasn’t good enough and that’s why we started Lawn.com.au."
+                                    "It all started with what my brothers and I thought was a simple thing – keeping our parents’ yard tidy. This took us on a journey of dealing with providers who wouldn’t turn up on time (or at all), constantly changing quotes, trying to call people who were always on the job and always dealing with inconsistent prices.
+                                    We decided it just wasn’t good enough and that’s why we started Lawn.com.au."
 
                                 </p>
                             </div>
@@ -167,25 +175,24 @@ We decided it just wasn’t good enough and that’s why we started Lawn.com.au.
                             </div>
                             <div className="col-lg-5 col-md-12 d-flex justify-content-center mt-4">
                                 <div className="text-center">
-                                    <h3 className="mb-4">Holistic Care</h3>
+                                    <h3 className="mb-4">Lawn.Com.Au</h3>
                                     <div className="d-flex align-items-center mb-3">
                                         <i className="fas fa-map-marker-alt mr-2"></i>
                                         <div>
-                                            <p className="" style={{ display: 'inline-block', marginLeft: '0rem' }}>Level 4, 144 Edward Street,</p>
-                                            <p style={{ marginLeft: '1.2rem' }}>Brisbane,
-                                                QLD, Australia, 4000</p>
+                                            <p className="" style={{ display: 'inline-block', marginLeft: '1.2rem' }}>New England Highway, Toowoomba City, </p>
+                                            <p style={{ marginRight: '11rem' }}>QLD 4350</p>
                                         </div>
                                     </div>
                                     <div className="d-flex align-items-center mb-3">
                                         <i className="fas fa-phone mr-2"></i>
                                         <div>
-                                            <p className="mb-0" style={{ marginLeft: '1.1rem' }}>1300 880 881</p>
+                                            <p className="mb-0" style={{ marginLeft: '1.1rem' }}>1800 951 415</p>
                                         </div>
                                     </div>
                                     <div className="d-flex align-items-center mb-3">
                                         <i className="fas fa-envelope mr-2"></i>
                                         <div>
-                                            <p className="mb-0" style={{ marginLeft: '1.1rem' }}>info@myclover.com</p>
+                                            <p className="mb-0" style={{ marginLeft: '1.1rem' }}>ndis@lawn.com.au</p>
                                         </div>
                                     </div>
                                 </div>

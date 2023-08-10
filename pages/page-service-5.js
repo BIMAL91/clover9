@@ -15,10 +15,18 @@ function Service1() {
                 <section className="section-box">
                     <div className="banner-hero banner-head-image" style={{ background: 'url(assets/imgs/page/blog/single/banner.png)' }}>
                         <div className="container">
-                            <div className="">
-                                {/* <span className="tag-1 bg-6 color-green-900">TECHNOLOGY NEWS</span> */}
-                                <h1 className="text-heading-1 color-white mt-30">Holistic Care Provider</h1>
-                            </div>
+                        <div className="">
+      {/* <span className="tag-1 bg-6 color-green-900">TECHNOLOGY NEWS</span> */}
+      <h1 className="text-heading-2 color-white mt-30" style={{ display: 'flex', alignItems: 'center' }}>
+        (Ppm) Program Plan Management{' '}
+        <img
+          src="assets/imgs/page/services/1/registraion.png"
+          className="registration"
+          style={{ marginLeft: '10px', marginTop: '5px', verticalAlign: 'middle' }}
+          alt="Registration"
+        />
+      </h1>
+    </div>
                             <div className="col-md-8 col-sm-6 mt-40">
 
                                 <Link href="#" legacyBehavior>
@@ -128,7 +136,7 @@ function Service1() {
                             <div className="col-lg-4 col-sm-11 mt-4 offset-lg-2">
                                 <span className="tag-1 bg-6 color-green-900">Built Exclusively For You</span>
                                 <h3 className="text-heading-9 mt-3">
-                                    About Holistic Care Provider
+                                   (Ppm) Program Plan Management
                                 </h3>
                                 <p className="text-body-lead-large-1 color-gray-600 mt-3">
                                 We at Program Plan Management (PPM) have a diverse range of experience, talents and interests. Ranging from graduate accounting from the University of Tasmania and a graduate diploma in legal pracice from the Australian National University, to a degree in information technology from the University of New South Wales. Our work experience covers both government and private industry with various accounting related roles.
@@ -166,25 +174,24 @@ function Service1() {
                             </div>
                             <div className="col-lg-5 col-md-12 d-flex justify-content-center mt-4">
                                 <div className="text-center">
-                                    <h3 className="mb-4">Holistic Care</h3>
+                                    <h4 className="mb-4">(Ppm) Program Plan Management</h4>
                                     <div className="d-flex align-items-center mb-3">
                                         <i className="fas fa-map-marker-alt mr-2"></i>
                                         <div>
-                                            <p className="" style={{ display: 'inline-block', marginLeft: '0rem' }}>Level 4, 144 Edward Street,</p>
-                                            <p style={{ marginLeft: '1.2rem' }}>Brisbane,
-                                                QLD, Australia, 4000</p>
+                                            <p className="" style={{ display: 'inline-block', marginLeft: '1rem' }}>Kingston Heights, Kingston Beach, </p>
+                                            <p style={{ marginRight: '9rem' }}>TAS 7050</p>
                                         </div>
                                     </div>
                                     <div className="d-flex align-items-center mb-3">
                                         <i className="fas fa-phone mr-2"></i>
                                         <div>
-                                            <p className="mb-0" style={{ marginLeft: '1.1rem' }}>1300 880 881</p>
+                                            <p className="mb-0" style={{ marginLeft: '1.1rem' }}>03 6310 8118</p>
                                         </div>
                                     </div>
                                     <div className="d-flex align-items-center mb-3">
                                         <i className="fas fa-envelope mr-2"></i>
                                         <div>
-                                            <p className="mb-0" style={{ marginLeft: '1.1rem' }}>info@myclover.com</p>
+                                            <p className="mb-0" style={{ marginLeft: '1.1rem' }}>contact@ppm.email</p>
                                         </div>
                                     </div>
                                 </div>

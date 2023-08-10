@@ -17,7 +17,15 @@ function Service1() {
                         <div className="container">
                             <div className="">
                                 {/* <span className="tag-1 bg-6 color-green-900">TECHNOLOGY NEWS</span> */}
-                                <h1 className="text-heading-1 color-white mt-30">Holistic Care Provider</h1>
+                                <h1 className="text-heading-1 color-white mt-30" style={{ display: 'flex', alignItems: 'center' }}>
+                                    Cramli Australia Pty Ltd{' '}
+                                    <img
+                                        src="assets/imgs/page/services/1/registraion.png"
+                                        className="registration"
+                                        style={{ marginLeft: '10px', marginTop: '10px' }}
+                                        alt="Registration"
+                                    />
+                                </h1>
                             </div>
                             <div className="col-md-8 col-sm-6 mt-40">
 
@@ -128,7 +136,7 @@ function Service1() {
                             <div className="col-lg-4 col-sm-11 mt-4 offset-lg-2">
                                 <span className="tag-1 bg-6 color-green-900">Built Exclusively For You</span>
                                 <h3 className="text-heading-9 mt-3">
-                                    About Holistic Care Provider
+                                    Cramli Australia Pty Ltd
                                 </h3>
                                 <p className="text-body-lead-large-1 color-gray-600 mt-3">
                                     Holistic Care Provider is a registered NDIS business specializing in comprehensive care solutions. Our unique brokerage service enables both registered and unregistered providers to deliver exceptional services to participants. We prioritize the privacy and confidentiality of all participants, implementing necessary measures to safeguard their personal information throughout our services.
@@ -165,25 +173,24 @@ function Service1() {
                             </div>
                             <div className="col-lg-5 col-md-12 d-flex justify-content-center mt-4">
                                 <div className="text-center">
-                                    <h3 className="mb-4">Holistic Care</h3>
+                                    <h4 className="mb-4">Cramli Australia Pty Ltd</h4>
                                     <div className="d-flex align-items-center mb-3">
                                         <i className="fas fa-map-marker-alt mr-2"></i>
                                         <div>
-                                            <p className="" style={{ display: 'inline-block', marginLeft: '0rem' }}>Level 4, 144 Edward Street,</p>
-                                            <p style={{ marginLeft: '1.2rem' }}>Brisbane,
-                                                QLD, Australia, 4000</p>
+                                            <p className="" style={{ display: 'inline-block', marginLeft: '1.2rem' }}>Unit 1, 385 Mcclelland Drive,</p>
+                                            <p style={{ marginRight: '1.3rem' }}>Langwarrin, VIC 3910</p>
                                         </div>
                                     </div>
                                     <div className="d-flex align-items-center mb-3">
                                         <i className="fas fa-phone mr-2"></i>
                                         <div>
-                                            <p className="mb-0" style={{ marginLeft: '1.1rem' }}>1300 880 881</p>
+                                            <p className="mb-0" style={{ marginLeft: '1.1rem' }}>03 5996 3804</p>
                                         </div>
                                     </div>
                                     <div className="d-flex align-items-center mb-3">
                                         <i className="fas fa-envelope mr-2"></i>
                                         <div>
-                                            <p className="mb-0" style={{ marginLeft: '1.1rem' }}>info@myclover.com</p>
+                                            <p className="mb-0" style={{ marginLeft: '1.1rem' }}>admin@cramli.com.au</p>
                                         </div>
                                     </div>
                                 </div>

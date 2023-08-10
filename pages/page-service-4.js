@@ -17,7 +17,15 @@ function Service1() {
                         <div className="container">
                             <div className="">
                                 {/* <span className="tag-1 bg-6 color-green-900">TECHNOLOGY NEWS</span> */}
-                                <h1 className="text-heading-1 color-white mt-30">Holistic Care Provider</h1>
+                                <h1 className="text-heading-2 color-white mt-30">
+                                    Alliance Plan Management Services{' '}
+                                    <img
+                                        src="assets/imgs/page/services/1/registraion.png"
+                                        className="registration"
+                                        style={{ display: 'inline', marginLeft: '10px', verticalAlign: 'middle' }}
+                                        alt="Registration"
+                                    />
+                                </h1>
                             </div>
                             <div className="col-md-8 col-sm-6 mt-40">
 
@@ -128,10 +136,10 @@ function Service1() {
                             <div className="col-lg-4 col-sm-11 mt-4 offset-lg-2">
                                 <span className="tag-1 bg-6 color-green-900">Built Exclusively For You</span>
                                 <h3 className="text-heading-9 mt-3">
-                                    About Holistic Care Provider
+                                    Alliance Plan Management Services
                                 </h3>
                                 <p className="text-body-lead-large-1 color-gray-600 mt-3">
-                                We understand that time is one thing you just don’t have enough of, especially when children or other caring responsibilities are involved. Here at Alliance, we will submit your claims to the NDIS, pay invoices on your behalf, and assist you to monitor your funding. Our staff are trained in the Early Childhood Early Intervention (ECEI) process so that we can best support you and your family through the scheme from a very young age.
+                                    We understand that time is one thing you just don’t have enough of, especially when children or other caring responsibilities are involved. Here at Alliance, we will submit your claims to the NDIS, pay invoices on your behalf, and assist you to monitor your funding. Our staff are trained in the Early Childhood Early Intervention (ECEI) process so that we can best support you and your family through the scheme from a very young age.
 
                                 </p>
                             </div>
@@ -166,25 +174,24 @@ function Service1() {
                             </div>
                             <div className="col-lg-5 col-md-12 d-flex justify-content-center mt-4">
                                 <div className="text-center">
-                                    <h3 className="mb-4">Holistic Care</h3>
+                                    <h4 className="mb-4" style={{ FontWeight: 'bold' }}>Alliance Plan Management Services</h4>
                                     <div className="d-flex align-items-center mb-3">
                                         <i className="fas fa-map-marker-alt mr-2"></i>
                                         <div>
-                                            <p className="" style={{ display: 'inline-block', marginLeft: '0rem' }}>Level 4, 144 Edward Street,</p>
-                                            <p style={{ marginLeft: '1.2rem' }}>Brisbane,
-                                                QLD, Australia, 4000</p>
+                                            <p className="" style={{ display: 'inline-block', marginLeft: '1rem' }}>Elford Street, Clifton Beach,QLD 4879 </p>
+                                            <p style={{ marginLeft: '1.2rem' }}> </p>
                                         </div>
                                     </div>
                                     <div className="d-flex align-items-center mb-3">
                                         <i className="fas fa-phone mr-2"></i>
                                         <div>
-                                            <p className="mb-0" style={{ marginLeft: '1.1rem' }}>1300 880 881</p>
+                                            <p className="mb-0" style={{ marginLeft: '1.1rem' }}>1800 161 191</p>
                                         </div>
                                     </div>
                                     <div className="d-flex align-items-center mb-3">
                                         <i className="fas fa-envelope mr-2"></i>
                                         <div>
-                                            <p className="mb-0" style={{ marginLeft: '1.1rem' }}>info@myclover.com</p>
+                                            <p className="mb-0" style={{ marginLeft: '1.1rem' }}>hello@allianceplanmanagement.com.au</p>
                                         </div>
                                     </div>
                                 </div>

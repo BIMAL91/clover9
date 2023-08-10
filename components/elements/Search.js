@@ -5,7 +5,7 @@ const data = [
   {
     id: 1,
     title: 'Plan Management',
-    description: 'Bookkeeper ',
+    description: 'Alliance Plan Management Services',
     location: 'Elford Street, Clifton Beach, QLD 4879',
     imageUrl: '/assets/imgs/page/services/1/p.png',
     link: '/page-service-4/'
@@ -13,7 +13,7 @@ const data = [
   {
     id: 2,
     title: 'Plan Management',
-    description: 'Accountant',
+    description: '(Ppm) Program Plan Management',
     location: 'Kingston Heights, Kingston Beach, TAS 7050',
     imageUrl: '/assets/imgs/page/services/1/planmanagement2.png',
     link: '/page-service-5/'
@@ -21,7 +21,7 @@ const data = [
   {
     id: 3,
     title: 'Household tasks',
-    description: 'Gardener',
+    description: 'Lawn.Com.Au',
     location: 'New England Highway, Toowoomba City, QLD 4350',
     imageUrl: '/assets/imgs/page/services/1/gardening.jpg',
     link: '/page-service-6/'
@@ -29,7 +29,7 @@ const data = [
   {
     id: 4,
     title: 'Daily Personal Activities',
-    description: 'Therapist',
+    description: 'Cramli Australia Pty Ltd',
     location: 'Unit 1, 385 Mcclelland Drive, Langwarrin, VIC 3910',
     imageUrl: '/assets/imgs/page/services/1/PersonalActivities.jpg',
     link: '/page-service-1/'
@@ -155,8 +155,8 @@ const SearchFilter = () => {
   };
 
   const titleStyles = {
-    fontSize: '20px',
-    fontWeight: 'bold',
+    fontSize: '13px',
+    fontWeight: 'lightweight',
   };
 
   const linkStyles = {
