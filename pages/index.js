@@ -35,7 +35,7 @@ function Home() {
                             <div className="row">
                                 <div className="col-lg-7 d-flex align-items-center  custom-text-section">
                                     <div>
-                                        <h1 className="text-display-2 mb-4">
+                                        <h1 className="text-display-2 mb-2">
                                             Reliable
                                             <span className="clr"> Partner </span><br />
                                             Assisting Individuals <br /> With <span className="clr1"> Disabilities</span>
@@ -208,6 +208,7 @@ function Home() {
                                         As a first step we would welcome each individual to create an account
                                         online with minimum relevant personal details.
                                     </p>
+                                    <br/>
                                     <div className="mt-55">
                                         <Link href="#" legacyBehavior><a className="btn btn-default btn-white icon-arrow-right">Learn more</a></Link>
                                     </div>
@@ -244,6 +245,7 @@ function Home() {
                                         identifies the most suitable agencies
                                         .
                                     </p>
+                                    <br/>
                                     <div className="mt-55">
                                         <Link href="" legacyBehavior><a className="btn btn-default btn-white icon-arrow-right">Learn more</a></Link>
                                     </div>
