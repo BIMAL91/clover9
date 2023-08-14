@@ -28,19 +28,22 @@ function Home() {
     return (
         <>
             <Layout>
+
                 <section className="section-box">
                     <div className="banner-hero banner-1">
                         <div className="container">
                             <div className="row">
-                                <div className="col-lg-7">
-                                    <h1 className="text-display-2 mt-4">
-                                        Reliable
-                                        <span className="clr"> Partner </span><br />
-                                        Assisting Individuals <br /> With <span className="clr1"> Disabilities</span>
-                                    </h1>
-                                    <p className="text-body-Paragraph color-gray-500 mt-3">
-                                        Simplicity and ease of use is our mantra in assisting individuals challenged with  navigating the complexities of finding the right assistance  and agencies
-                                    </p>
+                                <div className="col-lg-7 d-flex align-items-center  custom-text-section">
+                                    <div>
+                                        <h1 className="text-display-2 mb-4">
+                                            Reliable
+                                            <span className="clr"> Partner </span><br />
+                                            Assisting Individuals <br /> With <span className="clr1"> Disabilities</span>
+                                        </h1>
+                                        <p className="text-body-Paragraph color-gray-500 mt-3">
+                                            Simplicity and ease of use is our mantra in assisting individuals challenged with  navigating the complexities of finding the right assistance  and agencies
+                                        </p>
+                                    </div>
                                 </div>
                                 <div className="col-lg-5 d-none d-lg-block">
                                     <div className="banner-imgs">
@@ -51,6 +54,7 @@ function Home() {
                         </div>
                     </div>
                 </section>
+
 
 
 
@@ -178,7 +182,7 @@ function Home() {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-2 col-sm-1 col-12" />
-                            <div className="col-lg-8 col-sm-10 col-12 text-center mt-100">
+                            <div className="col-lg-8 col-sm-10 col-12 text-center mt-40">
                                 <h2 className="text-heading-1 color-gray-900">
                                     How it works<br className="d-lg-block d-none" />
                                 </h2>
@@ -191,8 +195,8 @@ function Home() {
                         </div>
                     </div>
                     <div className="container mt-70">
-                        <div className="row">
-                            <div className="col-lg-4 col-sm-12">
+                        <div className="row d-flex flex-wrap">
+                            <div className="col-lg-4 col-sm-12 equal-height-col">
                                 <div className="card-grid-1 bg-5 bg-business hover-up">
                                     <div className="grid-1-img">
                                         <img src="/assets/imgs/page/homepage1/business-strategy.svg" alt="Agon" />
@@ -209,7 +213,7 @@ function Home() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-sm-12">
+                            <div className="col-lg-4 col-sm-12 equal-height-col">
                                 <div className="card-grid-1 bg-9 bg-local hover-up">
                                     <div className="grid-1-img">
                                         <img src="/assets/imgs/page/homepage1/local.svg" alt="Agon" />
@@ -227,7 +231,7 @@ function Home() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-sm-12">
+                            <div className="col-lg-4 col-sm-12 equal-height-col">
                                 <div className="card-grid-1 bg-11 bg-social hover-up">
                                     <div className="grid-1-img">
                                         <img src="/assets/imgs/page/homepage1/social.svg" alt="Agon" />
@@ -278,12 +282,12 @@ function Home() {
                                 </li>
                                 <li onClick={() => handleOnClick(1)}>
                                     <Link href="#" legacyBehavior>
-                                        <a className={activeIndex === 1 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"} style={buttonStyle}>Holidays and Travels</a>
+                                        <a className={activeIndex === 1 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"} style={buttonStyle}>Cleaning</a>
                                     </Link>
                                 </li>
                                 <li onClick={() => handleOnClick(1)}>
                                     <Link href="#" legacyBehavior>
-                                        <a className={activeIndex === 1 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"} style={buttonStyle}>Home Maintenance </a>
+                                        <a className={activeIndex === 1 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"} style={buttonStyle}>Gardening</a>
                                     </Link>
                                 </li>
                                 {/* <li onClick={() => handleOnClick()}>
@@ -293,17 +297,12 @@ function Home() {
                                 </li> */}
                                 <li onClick={() => handleOnClick(1)}>
                                     <Link href="#" legacyBehavior>
-                                        <a className={activeIndex === 1 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"} style={buttonStyle}>Physiotherapy</a>
+                                        <a className={activeIndex === 1 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"} style={buttonStyle}>Holidays and Travels</a>
                                     </Link>
                                 </li>
                                 <li onClick={() => handleOnClick(1)}>
                                     <Link href="#" legacyBehavior>
-                                        <a className={activeIndex === 1 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"} style={buttonStyle}>Gardening </a>
-                                    </Link>
-                                </li>
-                                <li onClick={() => handleOnClick(1)}>
-                                    <Link href="#" legacyBehavior>
-                                        <a className={activeIndex === 1 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"} style={buttonStyle}>Cleaning</a>
+                                        <a className={activeIndex === 1 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"} style={buttonStyle}>Home Maintenance</a>
                                     </Link>
                                 </li>
                                 <li onClick={() => handleOnClick(1)}>
@@ -313,12 +312,17 @@ function Home() {
                                 </li>
                                 <li onClick={() => handleOnClick(1)}>
                                     <Link href="#" legacyBehavior>
-                                        <a className={activeIndex === 1 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"} style={buttonStyle}>Social Work</a>
+                                        <a className={activeIndex === 1 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"} style={buttonStyle}>Physiotherapy</a>
                                     </Link>
                                 </li>
                                 <li onClick={() => handleOnClick(1)}>
                                     <Link href="#" legacyBehavior>
                                         <a className={activeIndex === 1 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"} style={buttonStyle}>School Holiday Activities</a>
+                                    </Link>
+                                </li>
+                                <li onClick={() => handleOnClick(1)}>
+                                    <Link href="#" legacyBehavior>
+                                        <a className={activeIndex === 1 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"} style={buttonStyle}>Social Work</a>
                                     </Link>
                                 </li>
                                 <li onClick={() => handleOnClick(1)}>
@@ -673,12 +677,12 @@ function Home() {
                                                 </form>
                                             </div>
                                         </div>
-                                        <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
-                                            {/* <div className="block-chart shape-1">
+                                        {/* <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
+                                            <div className="block-chart shape-1">
                                                 <img src="/assets/imgs/template/chart.png" alt="Agon" />
-                                            </div> */}
-                                            {/* <img className="img-responsive img-newsletter" src="assets/imgs/template/img-newsletter.png" alt="Agon" /> */}
-                                        </div>
+                                            </div> 
+                                            <img className="img-responsive img-newsletter" src="assets/imgs/template/img-newsletter.png" alt="Agon" />
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>

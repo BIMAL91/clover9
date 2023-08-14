@@ -49,6 +49,29 @@ TABLE CONTENT
   @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
 }
 /* Add your CSS styles to your stylesheet or inline in the <head> of your Next.js app */
+/* YourComponent.css */
+
+.custom-text-section {
+  position: relative;
+  top: -50px; /* Adjust this value to move the section further upwards */
+}
+
+.equal-height-col {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 992px) {
+  .d-flex.flex-wrap {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .equal-height-col {
+      flex-grow: 1;
+  }
+}
+
 
 /* Style for the search result cards */
 .text-body-lead-large-1 {
@@ -719,7 +742,7 @@ a {
 }
 
 .text-display-1 {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 900;
   font-size: 96px;
   line-height: 132px;

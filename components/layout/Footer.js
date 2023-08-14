@@ -5,9 +5,9 @@ import Image from 'next/image';
 const Footer = () => {
     return (
         <>
-            <footer className="footer mt-50">
+            <footer className="footer mt-10">
                 <div className="container">
-                    <div className="footer-bottom mt-20">
+                    <div className="footer-bottom mt-0">
                         <div className="row">
                             <div className="col-md-5 offset-md-1 offset-lg-4">
                                 {/* Your contact links or other content */}
