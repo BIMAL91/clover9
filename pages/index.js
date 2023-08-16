@@ -208,10 +208,10 @@ function Home() {
                                         As a first step we would welcome each individual to create an account
                                         online with minimum relevant personal details.
                                     </p>
-                                    <br/>
-                                    <div className="mt-55">
+                                    <br/><br/>
+                                    {/* <div className="mt-55">
                                         <Link href="#" legacyBehavior><a className="btn btn-default btn-white icon-arrow-right">Learn more</a></Link>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             <div className="col-lg-4 col-sm-12 equal-height-col">
@@ -227,9 +227,9 @@ function Home() {
                                         to search for registered providers of service and submit online their
                                         enquiries for specific needs.
                                     </p>
-                                    <div className="mt-30">
+                                    {/* <div className="mt-30">
                                         <Link href="#" legacyBehavior><a className="btn btn-default btn-white icon-arrow-right">Learn more</a></Link>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             <div className="col-lg-4 col-sm-12 equal-height-col">
@@ -245,10 +245,10 @@ function Home() {
                                         identifies the most suitable agencies
                                         .
                                     </p>
-                                    <br/>
-                                    <div className="mt-55">
+                                    <br/><br/>
+                                    {/* <div className="mt-55">
                                         <Link href="" legacyBehavior><a className="btn btn-default btn-white icon-arrow-right">Learn more</a></Link>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
