@@ -58,7 +58,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                         </li>
                                         {/* <li className="has-children"> */}
                                         <li className="">
-                                            <Link href="#" legacyBehavior><a>About</a></Link>
+                                            <Link href="/page-about-3" legacyBehavior><a>About</a></Link>
                                             {/* <ul className="sub-menu">
                                                 <li>
                                                     <Link href="/page-about-1" legacyBehavior><a><i className="fi fi-rr-star" />About Us - 1</a></Link>

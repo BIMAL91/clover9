@@ -10,10 +10,10 @@ function About3() {
     const [modal, setModal] = useState(false);
     const [videoLoading, setVideoLoading] = useState(true);
     const openModal = () => {
-    setModal(!modal);
+        setModal(!modal);
     };
     const spinner = () => {
-    setVideoLoading(!videoLoading);
+        setVideoLoading(!videoLoading);
     };
 
     return (
@@ -24,8 +24,13 @@ function About3() {
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-12 text-center">
-                                    <h1 className="text-display-2 color-gray-900">Our Story</h1>
-                                    <p className="text-heading-4 color-gray-600 mt-40">We supply enterprises, organizations and institutes of high-<br className="d-lg-block d-none" />tech industries with modern components. We build long-<br className="d-lg-block d-none" />term trusting relationships with our customers and partnes<br className="d-lg-block d-none" />for further fruitful cooperations.</p>
+                                    <h1 className="text-heading-1">Connecting</h1>
+                                    <p className="text-body-excerpt  mt-40">
+
+                                        Welcome to myClover, your reliable partner dedicated to <br className="d-lg-block d-none" />
+                                        assisting individuals with disabilities.Simplicity and ease of<br className="d-lg-block d-none" />
+                                        use is our mantra in assisting individuals challenged with<br className="d-lg-block d-none" />
+                                        navigating the complexities of finding the right assistance and agencies.</p>
                                 </div>
                             </div>
                         </div>
@@ -50,42 +55,115 @@ function About3() {
                         <div className="row">
                             <div className="col-lg-1 col-sm-1 col-12" />
                             <div className="col-lg-10 col-sm-10 col-12 text-center">
-                                <h2 className="text-heading-1 color-gray-900 mb-10">Providing solutions of every kind</h2>
-                                <p className="text-body-lead-large color-gray-600 mt-20">In a professional context it often happens that private or<br className="d-lg-block d-none" />corporate clients order a publication to publish news.</p>
+                                <h2 className="text-heading-1 color-gray-900 mb-10">Why myClover?</h2>
+                                {/* <p className="text-body-lead-large color-gray-600 mt-20">In a professional context it often happens that private or<br className="d-lg-block d-none" />corporate clients order a publication to publish news.</p> */}
                             </div>
                             <div className="col-lg-1 col-sm-1 col-12" />
                         </div>
                     </div>
                     <div className="container mt-40">
                         <div className="row">
-                            <div className="col-lg-4 col-md-12 col-sm-12">
+                            <div className="col-lg-4 col-md-6 col-sm-12 offset-lg-2">
                                 <div className="list-icons mt-50">
-                                    <div className="item-icon none-bd"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" /></span>
-                                        <h4 className="text-heading-4">1. Acquisition</h4>
-                                        <p className="text-body-text color-gray-600 mt-15">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
+                                    <div className="item-icon none-bd">
+                                        <span className="icon-left">
+                                            <img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" />
+                                        </span>
+                                        <h4 className="text-heading-5">1.Extensive Agency Network</h4>
+                                        <p className="text-body-text color-gray-600 mt-15">
+                                            We have partnered with a wide range of reliable and experienced agencies specializing in various disabilities and support services. This allows us to connect individuals with the most suitable agencies for their specific needs.
+                                            {/* Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. */}
+                                        </p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-12 col-sm-12">
+                            <div className="col-lg-4 col-md-6 col-sm-12">
                                 <div className="list-icons mt-50">
-                                    <div className="item-icon none-bd"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-active.svg" alt="Agon" /></span>
-                                        <h4 className="text-heading-4">2. Activation</h4>
-                                        <p className="text-body-text color-gray-600 mt-15">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
+                                    <div className="item-icon none-bd">
+                                        <span className="icon-left">
+                                            <img src="/assets/imgs/page/homepage2/icon-active.svg" alt="Agon" />
+                                        </span>
+                                        <h4 className="text-heading-5">2.Personalized Approach</h4>
+                                        <p className="text-body-text color-gray-600 mt-15">
+                                            We believe in the importance of individualized care and attention. By facilitating direct communication between individuals and agencies, we ensure that the support provided aligns with their unique requirements, preferences, and goals.
+
+                                            {/* Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. */}
+                                        </p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-12 col-sm-12">
+                        </div>
+                        <div className="row">
+                            <div className="col-lg-4 col-md-6 col-sm-12 offset-lg-2">
                                 <div className="list-icons mt-50">
-                                    <div className="item-icon none-bd"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-retent.svg" alt="Agon" /></span>
-                                        <h4 className="text-heading-4">3. Retention</h4>
-                                        <p className="text-body-text color-gray-600 mt-15">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
+                                    <div className="item-icon none-bd">
+                                        <span className="icon-left">
+                                            <img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" />
+                                        </span>
+                                        <h4 className="text-heading-5">3.Streamlined Process</h4>
+                                        <p className="text-body-text color-gray-600 mt-15">
+                                            Our platform simplifies the search for assistance by eliminating the need for extensive research and multiple inquiries. We streamline the process, saving time and effort, while ensuring individuals have access to the best possible options
+                                            {/* Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. */}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 col-sm-12">
+                                <div className="list-icons mt-50">
+                                    <div className="item-icon none-bd">
+                                        <span className="icon-left">
+                                            <img src="/assets/imgs/page/homepage2/icon-active.svg" alt="Agon" />
+                                        </span>
+                                        <h4 className="text-heading-5">4.Trusted and Verified Agencies</h4>
+                                        <p className="text-body-text color-gray-600 mt-15">
+                                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                            {/* Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. */}
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                 </section>
-                <section className="section-box pt-100 pb-100 mt-100 bg-6">
+
+                <section className="section-box mt-10">
+                    <div className="container mt-40">
+                        <div className="row">
+                            <div className="col-lg-4 col-md-6 col-sm-12 offset-lg-2">
+                                <div className="list-icons mt-50">
+                                    <div className="item-icon none-bd">
+                                        <h4 className="text-heading-1 text-center">Mission</h4>
+                                        <p className="text-body-text color-gray-600 mt-15">
+                                        Our mission is to empower individuals with disabilities by simplifying access to  care  and services with secure cutting edge technology and based on trust, integrity and compassion
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 col-sm-12">
+                                <div className="list-icons mt-50">
+                                    <div className="item-icon none-bd">
+                                        <h4 className="text-heading-1 text-center">Vission</h4>
+                                        <p className="text-body-text color-gray-600 mt-15">
+                                        Our vision is to create a society where You Matter
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="container mt-4">
+                        <div className="row">
+                            <div className="col-12 text-center">
+                                <Link href="#" legacyBehavior>
+                                    <a className="btn btn-default btn-black icon-arrow-right-white">Find Services</a>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+
+                {/* <section className="section-box pt-100 pb-100 mt-100 bg-6">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-5 mb-30"><span className="tag-1 color-gray-900">Built Exclusively For You</span>
@@ -224,8 +302,8 @@ function About3() {
                             </div>
                         </div>
                     </div>
-                </section>
-                <section className="section-box">
+                </section> */}
+                {/* <section className="section-box">
                     <div className="container mt-30">
                         <div className="row">
                             <div className="col-lg-8">
@@ -268,25 +346,36 @@ function About3() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
+
                 <section className="section-box overflow-visible mb-100">
                     <div className="container mt-100">
                         <div className="row">
-                            <div className="col-lg-10 mx-auto">
-                                <div className="bg-2 box-newsletter position-relative">
+                            <div className="col-lg-8 mx-auto">
+                                <div className="bg-11 box-newsletter position-relative">
                                     <div className="row">
-                                        <div className="col-lg-5 col-md-7"><span className="text-body-capitalized color-gray-500 text-uppercase">newsletter</span>
-                                            <h4 className="text-heading-2 mb-10 mt-10">Subscribe our newsletter</h4>
-                                            <p className="text-body-text color-gray-500">By clicking the button, you are agreeing with our</p>
+                                        <div className="col-lg-5 col-md-7">
+                                            <span className="text-body-capitalized color-gray-500 text-uppercase">newsletter</span>
+                                            <h4 className="text-heading-2 mb-10 mt-10">
+                                                Subscribe our newsletter
+                                            </h4>
+                                            <p className="text-body-text color-gray-500">
+                                                By clicking the button, you are
+                                                agreeing with our
+                                            </p>
                                             <Link href="/page-terms" legacyBehavior><a>Term and Conditions</a></Link>
-
                                             <div className="box-form-newsletter mt-30">
-                                                <form className="form-newsletter"><input className="input-newsletter" placeholder="Enter you mail .." /><button className="btn btn-send" /></form>
+                                                <form className="form-newsletter">
+                                                    <input className="input-newsletter" placeholder="Enter you mail .." /><button className="btn btn-send" />
+                                                </form>
                                             </div>
                                         </div>
-                                        <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
-                                            <div className="block-chart shape-1"><img src="/assets/imgs/template/chart.png" alt="Agon" /></div><img className="img-responsive img-newsletter" src="assets/imgs/template/img-newsletter.png" alt="Agon" />
-                                        </div>
+                                        {/* <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
+                                            <div className="block-chart shape-1">
+                                                <img src="/assets/imgs/template/chart.png" alt="Agon" />
+                                            </div> 
+                                            <img className="img-responsive img-newsletter" src="assets/imgs/template/img-newsletter.png" alt="Agon" />
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -296,30 +385,30 @@ function About3() {
                 {modal ? (
                     <section className="modal__bg" onClick={openModal}>
                         <div className="modal__align">
-                        <div className="modal__content" modal={modal}>
-                            <div className="modal__video-align">
-                            {videoLoading ? (
-                                <div className="modal__spinner">
-                                    <i className="fi-rr-refresh"></i>
+                            <div className="modal__content" modal={modal}>
+                                <div className="modal__video-align">
+                                    {videoLoading ? (
+                                        <div className="modal__spinner">
+                                            <i className="fi-rr-refresh"></i>
+                                        </div>
+                                    ) : null}
+                                    <iframe
+                                        className="modal__video-style"
+                                        onLoad={spinner}
+                                        loading="lazy"
+                                        width="800"
+                                        height="500"
+                                        src="https://www.youtube.com/embed/oRI37cOPBQQ"
+                                        title="YouTube video player"
+                                        frameBorder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen
+                                    ></iframe>
                                 </div>
-                            ) : null}
-                            <iframe
-                                className="modal__video-style"
-                                onLoad={spinner}
-                                loading="lazy"
-                                width="800"
-                                height="500"
-                                src="https://www.youtube.com/embed/oRI37cOPBQQ"
-                                title="YouTube video player"
-                                frameBorder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen
-                            ></iframe>
                             </div>
                         </div>
-                        </div>
                     </section>
-                    ) : null}
+                ) : null}
             </Layout>
 
         </>

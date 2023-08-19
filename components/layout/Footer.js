@@ -17,7 +17,7 @@ const Footer = () => {
                                 <Link href="#" legacyBehavior>
                                     <a className="text-body-text color-gray-400 ml-50">Cookies</a>
                                 </Link>
-                                <Link href="#" legacyBehavior>
+                                <Link href="/page-terms" legacyBehavior>
                                     <a className="text-body-text color-gray-400 ml-50">Terms of service</a>
                                 </Link>
                             </div>

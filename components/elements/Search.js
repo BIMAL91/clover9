@@ -176,7 +176,7 @@ const SearchFilter = () => {
     <div>
       <div className="text-center mt-50" style={formStyles}>
         <div className="imagesearchform">
-          <select  value={service} onChange={handleServiceChange} style={selectStyles}>
+          <select  value={service} onChange={handleServiceChange} style={selectStyles} placeholder='My services'>
             <option value="">My Services</option>
             <option value="Plan Management">Plan Management</option>
             <option value="Household tasks">Household tasks</option>
