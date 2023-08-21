@@ -11,13 +11,13 @@ const Footer = () => {
                         <div className="row">
                             <div className="col-md-5 offset-md-1 offset-lg-4">
                                 {/* Your contact links or other content */}
-                                <Link href="#" legacyBehavior>
+                                <Link href="/page-terms" legacyBehavior>
                                     <a className="text-body-text color-gray-400 ml-50">Privacy policy</a>
                                 </Link>
                                 <Link href="#" legacyBehavior>
                                     <a className="text-body-text color-gray-400 ml-50">Cookies</a>
                                 </Link>
-                                <Link href="/page-terms" legacyBehavior>
+                                <Link href="#" legacyBehavior>
                                     <a className="text-body-text color-gray-400 ml-50">Terms of service</a>
                                 </Link>
                             </div>

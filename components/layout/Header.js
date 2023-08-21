@@ -27,7 +27,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             <div className="header-nav">
                                 <nav className="nav-main-menu d-none d-xl-block">
                                     <ul className="main-menu">
-                                    <li className="ml-80">
+                                    <li className="ml-0">
                                             <Link href="/" legacyBehavior><a className="active">Home</a></Link>
                                             {/* <ul className="sub-menu two-col">
                                                 <li>
@@ -72,9 +72,9 @@ const Header = ({ handleOpen, headerStyle }) => {
                                             </ul> */}
                                         </li>
                                         {/* <li className="has-children"> */}
-                                        <li className="">
+                                        {/* <li className="">
                                             <Link href="#" legacyBehavior><a>Company</a></Link>
-                                            {/* <ul className="sub-menu">
+                                            <ul className="sub-menu">
                                                 <li>
                                                     <Link href="/page-service-1" legacyBehavior><a className="closer"><i className="fi fi-rr-gem" />Services - 1</a></Link>
                                                 </li>
@@ -102,8 +102,8 @@ const Header = ({ handleOpen, headerStyle }) => {
                                                 <li>
                                                     <Link href="/page-career-detail" legacyBehavior><a className="closer"><i className="fi fi-rr-briefcase" />Career Detail</a></Link>
                                                 </li>
-                                            </ul> */}
-                                        </li>
+                                            </ul>
+                                        </li> */}
                                         {/* <li className="has-children"> */}
                                         <li className="">
                                             <Link href="#" legacyBehavior><a>Service</a></Link>
@@ -126,9 +126,9 @@ const Header = ({ handleOpen, headerStyle }) => {
                                             </ul> */}
                                         </li>
                                         {/* <li className="has-children"> */}
-                                        <li className="">
+                                        {/* <li className="">
                                             <Link href="#" legacyBehavior><a>Blog</a></Link>
-                                            {/* <ul className="sub-menu">
+                                            <ul className="sub-menu">
                                                 <li>
                                                     <Link href="/blog-1" legacyBehavior><a className="closer"><i className="fi fi-rr-edit" />Blog Archive - 1</a></Link>
                                                 </li>
@@ -139,8 +139,8 @@ const Header = ({ handleOpen, headerStyle }) => {
                                                 <li>
                                                     <Link href="/blog-single" legacyBehavior><a><i className="fi fi-rr-document-signed" />Blog Single</a></Link>
                                                 </li>
-                                            </ul> */}
-                                        </li>
+                                            </ul>
+                                        </li> */}
                                         {/* <li className="has-children"> */}
                                         <li className="">
                                             <a href="#">Contact</a>
@@ -150,7 +150,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                                 <li><Link href="/shop/1" legacyBehavior><a className="closer"><i className="fi fi-rr-edit"></i>Product Details</a></Link></li>
                                             </ul> */}
                                         </li>
-                                        <li className="color-gray-900 text-heading-6 ml-100 text-mb-sm-20">
+                                        <li className="color-gray-900 text-heading-6 ml-0 text-mb-sm-20">
                                             <a href="#">Ready to get started?</a>
                                         </li>
                                     </ul>

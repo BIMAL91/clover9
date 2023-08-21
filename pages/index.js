@@ -33,7 +33,7 @@ function Home() {
                     <div className="banner-hero banner-1">
                         <div className="container">
                             <div className="row">
-                                <div className="col-lg-7 d-flex align-items-center  custom-text-section">
+                                <div className="col-lg-7 d-flex align-items-center  custom-text-section"style={{ marginRight: '0px' }}>
                                     <div>
                                         <h1 className="text-display-2 mb-2">
                                             Reliable
@@ -43,6 +43,9 @@ function Home() {
                                         <p className="text-body-Paragraph color-gray-500 mt-3">
                                             Simplicity and ease of use is our mantra in assisting individuals challenged with  navigating the complexities of finding the right assistance  and agencies
                                         </p>
+                                        <div className="mt-40">
+                                            <Link href="/page-service-1" legacyBehavior><a className="btn btn-black icon-arrow-right-white">Find Services</a></Link>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-5 d-none d-lg-block">
@@ -208,7 +211,7 @@ function Home() {
                                         As a first step we would welcome each individual to create an account
                                         online with minimum relevant personal details.
                                     </p>
-                                    <br/><br/>
+                                    <br /><br />
                                     {/* <div className="mt-55">
                                         <Link href="#" legacyBehavior><a className="btn btn-default btn-white icon-arrow-right">Learn more</a></Link>
                                     </div> */}
@@ -245,7 +248,7 @@ function Home() {
                                         identifies the most suitable agencies
                                         .
                                     </p>
-                                    <br/><br/>
+                                    <br /><br />
                                     {/* <div className="mt-55">
                                         <Link href="" legacyBehavior><a className="btn btn-default btn-white icon-arrow-right">Learn more</a></Link>
                                     </div> */}

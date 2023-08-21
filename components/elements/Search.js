@@ -177,14 +177,18 @@ const SearchFilter = () => {
       <div className="text-center mt-50" style={formStyles}>
         <div className="imagesearchform">
           <select  value={service} onChange={handleServiceChange} style={selectStyles} placeholder='My services'>
-            <option value="">My Services</option>
+              <option value="" disabled hidden>
+        My Services
+      </option>
             <option value="Plan Management">Plan Management</option>
             <option value="Household tasks">Household tasks</option>
             <option value="Daily Personal Activities">Daily Personal Activities</option>
             {/* Add your service options */}
           </select>
           <select value={location} onChange={handleLocationChange} style={selectStyles}>
-            <option value="">Location or Post</option>
+          <option value="" disabled hidden>
+          Location or Post
+      </option>
             <option value="Elford Street, Clifton Beach, QLD 4879">Elford Street, Clifton Beach, QLD 4879</option>
             <option value="Kingston Heights, Kingston Beach, TAS 7050">Kingston Heights, Kingston Beach, TAS 7050</option>
             <option value="New England Highway, Toowoomba City, QLD 4350">New England Highway, Toowoomba City, QLD 4350</option>

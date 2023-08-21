@@ -70,7 +70,7 @@ function About3() {
                                             <img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" />
                                         </span>
                                         <h4 className="text-heading-5">1.Extensive Agency Network</h4>
-                                        <p className="text-body-text color-gray-600 mt-15">
+                                        <p className="text-body-excerpt  mt-15">
                                             We have partnered with a wide range of reliable and experienced agencies specializing in various disabilities and support services. This allows us to connect individuals with the most suitable agencies for their specific needs.
                                             {/* Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. */}
                                         </p>
@@ -84,7 +84,7 @@ function About3() {
                                             <img src="/assets/imgs/page/homepage2/icon-active.svg" alt="Agon" />
                                         </span>
                                         <h4 className="text-heading-5">2.Personalized Approach</h4>
-                                        <p className="text-body-text color-gray-600 mt-15">
+                                        <p className="text-body-excerpt  mt-15">
                                             We believe in the importance of individualized care and attention. By facilitating direct communication between individuals and agencies, we ensure that the support provided aligns with their unique requirements, preferences, and goals.
 
                                             {/* Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. */}
@@ -101,7 +101,7 @@ function About3() {
                                             <img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" />
                                         </span>
                                         <h4 className="text-heading-5">3.Streamlined Process</h4>
-                                        <p className="text-body-text color-gray-600 mt-15">
+                                        <p className="text-body-excerpt  mt-15">
                                             Our platform simplifies the search for assistance by eliminating the need for extensive research and multiple inquiries. We streamline the process, saving time and effort, while ensuring individuals have access to the best possible options
                                             {/* Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. */}
                                         </p>
@@ -115,7 +115,7 @@ function About3() {
                                             <img src="/assets/imgs/page/homepage2/icon-active.svg" alt="Agon" />
                                         </span>
                                         <h4 className="text-heading-5">4.Trusted and Verified Agencies</h4>
-                                        <p className="text-body-text color-gray-600 mt-15">
+                                        <p className="text-body-excerpt   mt-15">
                                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                                             {/* Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. */}
                                         </p>
@@ -128,14 +128,14 @@ function About3() {
                 </section>
 
                 <section className="section-box mt-10">
-                    <div className="container mt-40">
+                    <div className="container mt-20">
                         <div className="row">
                             <div className="col-lg-4 col-md-6 col-sm-12 offset-lg-2">
                                 <div className="list-icons mt-50">
                                     <div className="item-icon none-bd">
-                                        <h4 className="text-heading-1 text-center">Mission</h4>
-                                        <p className="text-body-text color-gray-600 mt-15">
-                                        Our mission is to empower individuals with disabilities by simplifying access to  care  and services with secure cutting edge technology and based on trust, integrity and compassion
+                                        <h4 className="text-heading-1">Mission</h4>
+                                        <p className="text-body-excerpt  color-gray-600 mt-35">
+                                            Our mission is to empower individuals with disabilities by simplifying access to  care  and services with secure cutting edge technology and based on trust, integrity and compassion
                                         </p>
                                     </div>
                                 </div>
@@ -143,23 +143,23 @@ function About3() {
                             <div className="col-lg-4 col-md-6 col-sm-12">
                                 <div className="list-icons mt-50">
                                     <div className="item-icon none-bd">
-                                        <h4 className="text-heading-1 text-center">Vission</h4>
-                                        <p className="text-body-text color-gray-600 mt-15">
-                                        Our vision is to create a society where You Matter
+                                        <h4 className="text-heading-1">Vission</h4>
+                                        <p className="text-body-excerpt  color-gray-600 mt-35">
+                                            Our vision is to create a society where You Matter
                                         </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="container mt-4">
-                        <div className="row">
-                            <div className="col-12 text-center">
-                                <Link href="#" legacyBehavior>
-                                    <a className="btn btn-default btn-black icon-arrow-right-white">Find Services</a>
-                                </Link>
+                            <div className="row">
+                                <div className="col-12 text-center">
+                                    <Link href="#" legacyBehavior>
+                                        <a className="btn btn-default btn-black icon-arrow-right-white">Find Services</a>
+                                    </Link>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     </div>
                 </section>
 
@@ -363,7 +363,7 @@ function About3() {
                                                 By clicking the button, you are
                                                 agreeing with our
                                             </p>
-                                            <Link href="/page-terms" legacyBehavior><a>Term and Conditions</a></Link>
+                                            <Link href="#" legacyBehavior><a>Term and Conditions</a></Link>
                                             <div className="box-form-newsletter mt-30">
                                                 <form className="form-newsletter">
                                                     <input className="input-newsletter" placeholder="Enter you mail .." /><button className="btn btn-send" />

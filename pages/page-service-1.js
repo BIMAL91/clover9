@@ -13,29 +13,49 @@ function Service1() {
 
             <Layout>
                 <section className="section-box">
-                    <div className="banner-hero banner-head-image" style={{ background: 'url(assets/imgs/page/blog/single/banner.png)' }}>
+                    <div className="banner-hero" style={{}}>
                         <div className="container">
-                            <div className="">
-                                {/* <span className="tag-1 bg-6 color-green-900">TECHNOLOGY NEWS</span> */}
-                                <h1 className="text-heading-1 color-white mt-30" style={{ display: 'flex', alignItems: 'center' }}>
-                                    Cramli Australia Pty Ltd{' '}
-                                    <img
-                                        src="assets/imgs/page/services/1/registraion.png"
-                                        className="registration"
-                                        style={{ marginLeft: '10px', marginTop: '10px' }}
-                                        alt="Registration"
-                                    />
-                                </h1>
-                            </div>
-                            <div className="col-md-8 col-sm-6 mt-40">
+                            <div className="row align-items-center">
+                                <div className="col-md-8">
+                                    <p className="text-heading-1 color-black" style={{ background: 'white', fontSize: "44px", padding: '0px', display: 'inline-block' }}>
+                                        Cramli Australia Pty Ltd{' '}
+                                        <img
+                                            src="assets/imgs/page/services/1/registraion.png"
+                                            className="registration"
+                                            style={{ marginLeft: '10px', marginTop: '10px' }}
+                                            alt="Registration"
+                                        />
+                                    </p><br />
+                                    <div>
+                                        <p className="" style={{ display: 'inline-block', marginLeft: '0rem' }}>Unit 1, 385 Mcclelland Drive,</p>
+                                        <p style={{ marginLeft: '.1rem' }}>Langwarrin, VIC 3910</p>
+                                    </div>
+                                </div>
 
-                                <Link href="#" legacyBehavior>
-                                    <a className="btn btn-square">Create an Account</a>
-                                </Link>
+                                <div className="col-md-4">
+                                    <div style={{ width: "100%", marginTop: "1rem" }}>
+                                        <Link href="#" legacyBehavior>
+                                            <a className="btn-full text-center" style={{ width: "100%", maxWidth: "420px", display: "block", padding: "1.5rem 1rem", fontSize: "24px" }}>Make Enquiry</a>
+                                        </Link>
+                                    </div><br />
+                                    <div className="d-flex  align-items-center mb-5">
+                                        <i className="fas fa-phone fa-2x mr-2 rounded-circle bg-white text-black p-0" style={{ fontSize: "24px", marginLeft: "0px" }}></i>
+                                        <p className="mb-0" style={{ fontSize: "24px", marginLeft: "10px" }}>03 5996 3804</p>
+                                    </div>
+                                    <br />
+                                    <div className="d-flex  align-items-center">
+                                        <i className="fas fa-envelope fa-2x mr-2" style={{ fontSize: "24px", marginLeft: "0px" }}></i>
+                                        <p className="mb-0" style={{ fontSize: "24px", marginLeft: "10px" }}>admin@cramli.com.au</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </section>
+
+
+
+
                 <section className="section-box mt-100">
                     <div className="container">
                         <div className="row">
@@ -147,28 +167,28 @@ function Service1() {
                                     <div style={{ flex: "1" }}>
                                         <img className="bdrd-16 img-responsive" src="assets/imgs/page/homepage2/img-built.png" alt="Agon" />
                                     </div>
-                                    <div style={{ width: "100%", marginTop: "1rem" }}>
+                                    {/* <div style={{ width: "100%", marginTop: "1rem" }}>
                                         <Link href="#" legacyBehavior>
                                             <a className="btn-full text-center" style={{ width: "100%", maxWidth: "420px", display: "block", padding: "1.5rem 1rem", fontSize: "24px" }}>Make Enquiry</a>
                                         </Link>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>
+                </section>s
 
 
 
 
 
 
-                <section className="section-box mt-120">
+                {/* <section className="section-box mt-120">
                     <div className="container">
                         <h3 className="text-center mb-4">Find us Here</h3>
                         <div className="row align-items-center">
                             <div className="col-lg-5 offset-lg-2 col-md-12 mt-4">
-                                {/* Location Map Image */}
+                                Location Map Image
                                 <img src="assets/imgs/page/blog/single/location.png" alt="Location Map" className="img-fluid" />
                             </div>
                             <div className="col-lg-5 col-md-12 d-flex justify-content-center mt-4">
@@ -197,7 +217,7 @@ function Service1() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
 
 
